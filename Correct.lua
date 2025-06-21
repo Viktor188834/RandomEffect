@@ -84,7 +84,7 @@ MainGui.Parent = player:WaitForChild("PlayerGui")
 
 local SecondText = Instance.new("TextLabel")
 SecondText.Parent = MainGui
-SecondText.Position = UDim2.new(0.08, 0, 0.90000, 0)
+SecondText.Position = UDim2.new(0.13, 0, 0.90000, 0)
 SecondText.Name = "Modification"
 SecondText.Text = "nothing"
 SecondText.TextSize = 32
