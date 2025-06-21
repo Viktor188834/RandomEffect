@@ -1,3 +1,5 @@
+local ot = 25
+local to = 50
 print(ot)
 print(to)
 local player = game:GetService("Players").LocalPlayer
