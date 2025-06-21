@@ -1,3 +1,5 @@
+print(ot)
+print(to)
 local player = game:GetService("Players").LocalPlayer
 print(player)
 local charecter = player.Character
