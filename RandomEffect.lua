@@ -49,8 +49,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "SIT DOWN!!!"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "sit down";
-    				Text = "сядь на хуй";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "сядь на хуй";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			humanoid.Sit = true
 			SecondText.Text = "sit down"
 			wait(3)
@@ -60,8 +60,8 @@ while wait(math.random(ot, to)) do
 			humanoid.JumpPower = 0
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "skiping day of legs";
-    				Text = "пропускал день ног";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "пропускал день ног";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "without jumps"
 			wait(3)
 			FirstText.Text = " "
@@ -71,16 +71,16 @@ while wait(math.random(ot, to)) do
 			SecondText.Text = "without WalkSpeed"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "whoever moves first is gay";
-    				Text = "кто первый двинется тот гей";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "кто первый двинется тот гей";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			wait(3)
 			FirstText.Text=" "
 		elseif RandomDoing == 4 then
 			FirstText.Text = "what are you want?"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "what are you want?";
-    				Text = "что ты хочешь?";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "что ты хочешь?";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "nothing"
 			wait(3)
 			FirstText.Text=" "
@@ -95,8 +95,8 @@ while wait(math.random(ot, to)) do
 			atmosphera.Haze = 10
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "i can't see";
-    				Text = "я не чего не вижу";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "я не чего не вижу";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "you can't see"
 			wait(3)
 			FirstText.Text = " "
@@ -114,8 +114,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "Let's chilling!"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "Let's chill!";
-    				Text = "го почилим";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "го почилим";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "ChillGuy"
 			local humanoidrotpart = charecter.HumanoidRootPart
 			wait(3)
@@ -129,8 +129,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "uff"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "UFF";
-    				Text = "уфф";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "уфф";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "Sound"
 			local uff = humanoidrotpart:FindFirstChild("Died")
 			uff.Volume = 1
@@ -144,8 +144,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "lol with Cursor"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "lol with cursor";
-    				Text = "полный хаос с курсором";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "полный хаос с курсором";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "nothing"
 			mousemoveabs(math.random(-900, 900), math.random(-900, 900))
 			wait(math.random(0.50,1.5))
@@ -196,8 +196,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "storm"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "storm";
-    				Text = "молния";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "молния";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "storm"
 			FirstText.Text=" "
 			local stormmm = Instance.new("Sound")
@@ -217,8 +217,8 @@ while wait(math.random(ot, to)) do
 			FirstText.Text = "Music"
 			game:GetService("StarterGui"):SetCore("SendNotification", { 
    				Title = "Music";
-    				Text = "молния";
-    				Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    			Text = "молния";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 			SecondText.Text = "Music"
 			local Music = Instance.new("Sound")
 			Music.Parent = workspace
@@ -228,6 +228,27 @@ while wait(math.random(ot, to)) do
 			Music.TimePosition = 0
 			Music.Playing = true
 			FirstText.Text=" "
+		elseif RandomDoing == 12 then
+			FirstText.Text = "ESP!"
+			game:GetService("StarterGui"):SetCore("SendNotification", { 
+   				Title = "ESP";
+    			Text = "ESP other players";
+    			Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+			SecondText.Text = "esp"
+			wait(3)
+			FirstText.Text=" "
+			for i, childrik in ipairs(workspace:GetDescendants()) do
+    			if childrik:FindFirstChild("Body Colors") then
+        			if not childrik:FindFirstChild("EspBox") then
+            			if childrik ~= game.Players.LocalPlayer.Character then
+                			local esp = Instance.new("Highlight",childrik)
+           	    			esp.Name = "EspBox"
+							esp.FillColor = Color3.fromRGB(255, 0, 0)
+							esp.OutlineTransparency = 0.3
+      	        		end
+    	    		end
+				end
+			end
 		end
 	end
 end
