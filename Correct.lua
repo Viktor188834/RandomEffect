@@ -25,6 +25,44 @@ local to = 5 --до скольки секунд будет происходит�
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print(ot)
 print(to)
 local player = game:GetService("Players").LocalPlayer
