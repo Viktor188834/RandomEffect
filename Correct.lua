@@ -321,7 +321,7 @@ while wait(math.random(25, 40)) do
     	    		end
 				end
 			end
-		elseif RandomDoing == 13 then
+		elseif RandomDoing == 13 and budetliviletatt = 1 then
 			player.PlayerGui:ClearAllChildren()
 			player.Backpack:ClearAllChildren()
 			local cr = player.Character
